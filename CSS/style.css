@@ -7,6 +7,8 @@
     width:768px;
     padding:50px ;
     font-family: "Roboto", sans-serif;
+    margin:0 auto;
+
 }
 .bogo_title{
     display:flex;
@@ -130,7 +132,7 @@ select{
 .cart_btn{
     background:rgb(238 104 127);
     text-align: center;
-    padding:10px 0;
+    padding:20px 0;
     display:flex;
     gap:10px;
     justify-content: center;
@@ -150,14 +152,17 @@ select{
 
 }
 .popular{
-    display:none;
-    background:rgb(238 104 127);
-    color:#ffff;
-    padding:10px 5px;
-    font-size:18px;
+    display: flex;
+    background: rgb(238 104 127);
+    color: #ffff;
+    padding: 5px 5px;
+    font-size: 14px;
+    width: 23%;
+    text-align: center;
+    justify-content: center;
+    margin: -36px 0px 0 464px;
+    font-weight:700;
 }
-
-
 .bogo_cart input[type="radio"] {
   accent-color: #999; /* default gray */
 }
@@ -168,7 +173,4 @@ select{
 
 .bogo_cart.active-cart {
   border: 5px solid rgb(238, 104, 127); /* pink border on selection */
-}
-.bogo_cart.active-cart .popular{
-    display:block;
 }
