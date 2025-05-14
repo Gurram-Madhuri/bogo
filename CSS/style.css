@@ -91,15 +91,24 @@ input[type="radio"]{
 .option_cart{
     display:flex;
     gap:5px;
-    align-items: center;
+    align-items:end;
     margin:10px 0;
+}
+.option_cart h5{
+    font-size:16px;
+    font-weight:500;
+    color:#5c5c5c;
 }
 option{
     border:1px solid #5c5c5c;
 }
+.color h4, .size h4{
+    color:#504f4f;
+}
 select{
-    width:70px;
-    padding:3px 6px;
+    width:80px;
+    padding:10px 10px 5px 10px;
+    font-size:16px;
     border-color: #5c5c5c;
 }
 .bogo_cart_size_color{
@@ -173,4 +182,11 @@ select{
 
 .bogo_cart.active-cart {
   border: 5px solid rgb(238, 104, 127); /* pink border on selection */
+}
+.copywrites p{
+    text-align: end;
+    font-size:22px;
+    color:#5c5c5c;
+    padding:10px 0 0 0;
+    transform: skew(-20deg);
 }
